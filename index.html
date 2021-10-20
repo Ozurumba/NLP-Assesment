@@ -1,0 +1,24 @@
+1. Why do we need to tokenize a text in NLP?
+- By breaking up the text into small, known fragments, we can apply a small(ish) set of rules to combine them into some larger meaning.
+- To present the computer with some finite set of symbols that it can combine to produce the desired result.
+
+2. Can you tell me how many tokens contains in the bold text: The wolf said: "Little pig, little pig, let me come in."
+We have 15 tokens
+
+3. Consider the following book title: This Is the Beat Generation: New York-San Francisco-Paris. What would it take to be able to tokenize such strings so that each city name was stored as a single token?
+Ghhg
+
+4. Is this text tokenized?
+No it is not tokenized
+
+
+
+EXERCISE 2
+
+1. Lists the approach used to remove stop words?
+ NLTK Library
+ SpaCy Library
+ Gensim Library
+ Custom stop words
+Remove stop words from the text below:
+['stop', 'words', 'are', 'most', 'common', 'words', 'found', 'in', 'any', 'natural', 'language', 'which', 'carries', 'very', 'little', 'or', 'no', 'significant', 'semantic', 'context', 'in', 'a', 'sentence.', 'it', 'just', 'carry', 'syntactic', 'importance', 'which', 'aid', 'in', 'formation', 'of', 'sentence.', 'as', 'a', 'preprocessing', 'operation', 'it', 'must', 'be', 'removed', 'ease', 'further', 'task', 'and', 'speedup', 'core', 'task', 'in', 'text', 'processing.', 'ibrahim', 'a', '[3]', 'conducted', 'a', 'comparative', 'study', 'on', 'effect', 'of', 'stop', 'words', 'elimination', 'on', 'arabic', 'information', 'retrieval', 'where', 'three', 'stop', 'lists', 'viz,', 'general', 'stop', 'list,', 'corpus', 'based', 'stop-list', 'and', 'combined', 'stop', 'list', 'were', 'used', 'comparative', 'study.', 'general', 'stop-list', 'performed', 'better', 'than', 'rest', 'of', 'two.', 'ashish', 't,', 'et', 'al', '[4]', 'eliminated', 'stop-word', 'in', 'gujarati', 'language', 'by', 'preparing', 'frequency', 'list', 'from', 'gujarati', 'corpus', 'by', 'analyzing', 'popular', 'gujarati', 'newspapers.', 'riyad', 'a,', 'et', 'al', '[5],', 'used', 'finite', 'state', 'machine', '(fsm)', 'algorithm', 'eliminate', 'stop-words', 'arabic', 'language.', 'basim', 'a,', 'et', 'al', '[6]', 'have', 'designed', 'and', 'implemented', 'a', 'new', 'stop-word', 'removal', 'technique', 'arabic', 'language', 'based', 'on', 'dedicated', 'list', 'and', 'algorithm', 'which', 'compares', 'stopwords', 'if', 'it', 'fulfills', 'desired', 'string', 'length', 'criteria.', 'vijayarani', 's,', 'et', 'al[7]', 'used', 'zipf’s', 'law', '(z', 'method)', 'creation', 'of', 'stop-words.', 'rakholia', 'and', 'saini', '[8]', 'have', 'presented', 'a', 'rule-based', 'approach', 'dynamically', 'identify', 'stop', 'words', 'gujarati', 'language.', 'they', 'have', 'also', 'deployed', 'this', 'approach', 'with', 'additional', 'cosine', 'similarity', 'based', 'vector', 'space', 'model', 'information', 'retrieval', 'in', 'gujarati', 'language', '[9].', 'kaur', 'j', 'and', 'saini', 'jr', 'have', 'presented', 'list', 'of', 'punjabi', 'stop', 'words', '[10],', 'its', 'partof-speech', 'class', 'based', 'classification', '[11]', 'and', 'its', 'gurumukhi', 'and', 'shahmukhi', 'script', 'versions', '[12].', 'saini', 'and', 'rakholia', '[13]', 'have', 'presented', 'an', 'analytic', 'in-depth', 'report', 'on', 'continent', 'and', 'script-wise', 'divisions-based', 'statistical', 'measures', 'stopwords', 'lists', 'of', 'various', 'international', 'languages.']
